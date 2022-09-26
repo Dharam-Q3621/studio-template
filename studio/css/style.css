@@ -185,7 +185,6 @@ h3 {
 .skills-container-row {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     gap: 1rem;
 }
 
@@ -244,11 +243,22 @@ h3 {
     background-color: #232323;
 }
 
-.cards_2-row .cards_2-col:nth-child(even) p:last-child {
+.cards_2-row .cards_2-col:nth-child(even) button:last-child {
     color: #ff224f;
     margin-top: 2rem;
+    font-size: 1.2rem;
+    background-color: transparent;
+    border: none;
+    display: inline-block;
+    cursor: pointer;
+    transition: all 0.3s;
 }
-
+.cards_2-row .cards_2-col:nth-child(even) button:last-child:hover {
+    color: #b80025;
+}
+#moreText,#moreText2{
+    display: none;
+}
 /* <!-- cards-2 section  end--> */
 
 /* <!-- PROJECT SECTION START  --> */
